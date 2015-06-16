@@ -27,6 +27,8 @@ public class BusActivity extends Activity {
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.bus);
+
+		// Le Quang Vinh
 		
 		Intent data=getIntent();
 		
